@@ -1,0 +1,54 @@
+107ee13aa4cbabdc9ff0684b738dcd272c4211bc
+telegram - https://t.me/mintassociation/264
+
+let attempts = 0; //
+
+function checkPassword(password) {
+    const correctPassword = "your_password"; //
+
+    if (password !== correctPassword) {
+        attempts++; //
+
+        if (attempts >= 5) { // if_5_access
+            lockDevice(); //
+            return "Device is locked. Please contact support."; //
+        } else {
+            return "Incorrect password. Please try again."; //
+        }
+    } else {
+        return "Password is correct. Welcome!"; //
+    }
+}
+
+function lockDevice() {
+    console.log("Device is locked. Please contact support."); // <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button id="openModal"
+}
+
+//
+console.log(checkPassword("wrong_password")); // Try 1 - wrong_password
+console.log(checkPassword("wrong_password")); // Try 2 - wrong_password
+console.log(checkPassword("wrong_password")); // Try 3 - wrong_password
+console.log(checkPassword("wrong_password")); // Try 4 - wrong_password
+console.log(checkPassword("wrong_password")); // Try 5 - wrong_password
+
+
+
+def print_hi(Waiting for our team manager):
+    print(f'Hi, {I am Helen}')
+
+
+//
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
